@@ -1,0 +1,625 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+  display: flex;
+}
+.column{
+    flex: 50%;
+}
+table {
+    border-spacing: 0;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+  }
+
+  table tr {
+
+    background-color: #ffffff;
+  }
+
+  table tr:nth-child(even) {
+
+    background-color: #6b6b6b;
+    color: whitesmoke;
+  }
+
+
+  table th {
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+
+    background-color: #ffffff;
+
+    border-bottom: 4px solid #000000;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+  }
+
+
+  table td {
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+
+.loginContent{
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  float: right;
+  flex-direction: row;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.sidebar{
+  width: 30%;
+  float: left;
+}
+.main{
+  width: 70%;
+  display: flex;
+}
+
+.insert{
+  display: flex;
+  line-height: 1em;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+}
+
+#title {
+  margin: 0;
+  padding-left: .5em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.float-right {
+  margin-left: auto;
+}
+
+
+.login .label-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.login .label-input label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login .label-input input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login .align-right {
+  text-align: right;
+}
+
+.login .create {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login .create a {
+  color: lightblue;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.welcome-box {
+  width: 40%;
+}
+
+.loginContent{
+  background-color: #333;
+  color: #fff;
+  width: 30%;
+  padding: 1em;
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+      vertical-align: top;
+}
+
+.signup {
+  width: 40%;
+  margin: 50px auto;
+  margin-left: 30%;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+}
+body{
+  background-color: #dddddd;
+}
+.signup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.signup input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.signup button {
+  background-color: hsl(0, 0%, 99%);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.signup button:hover {
+  background-color: #513116;
+}
+.hidden{display: none;}
+
+#h2signup{
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.signup{
+  margin-top: 0;
+}
+
+#h2signup{
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 50px ;
+}
+
+.align-right {
+  text-align: center;
+}
+.movieTitle{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  border: 1px solid #ccc;
+}
+
+.sidebar {
+  flex-basis: 30%;
+  padding: 1em;
+  border-right: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-style: ridge;
+  border-color: #ccc;
+}
+
+th,
+td {
+  padding: 0.5em;
+  text-align: left;
+  border-bottom: 1px solid ;
+}
+
+
+
+.form {
+  margin: 1em;
+}
+
+
+.feedback {
+
+  color: #FFC2C2;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+
+.align-right {
+  text-align: right;
+}
+
+em{
+  font-style: normal;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.sideTitle{
+  text-decoration: underline;
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+button{
+  margin-top: 1em;
+  width: 25%;
+}
+button:hover {
+  color: #2e2e2e;
+}
+.sidebar{
+  background-color: #373737;
+}
+
+#rating{
+  margin-top: 2em;
+}
+
+.box{
+  border-style: ridge;
+}
+td:first-child {
+  padding-left: 15px;
+}
+th:first-child{
+  padding-left: 15px;
+}
+.insert {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.insert .form_title {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.insert .label_input {
+  margin-bottom: 20px;
+}
+
+.insert label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.align-right {
+  text-align: right;
+}
+
+#review{height: 30px;}
+.insert_login{
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  color: whitesmoke;
+}
+
+.insert_login {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.insert_login  {
+  margin-top: 2em;
+}
+
+.login .label-input label{
+  color: whitesmoke;
+}
+.intro{
+  margin: 1em;
+}
+.intro h1{
+  text-decoration: underline;
+  text-align: center;
+}
+.login .label-input input {
+  width: 75%;
+}
+
+
+.insert_login h3 {
+ text-align: center;
+ text-decoration: underline;
+ font-size: 20px;
+}
+
+
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+
+.sidebar {
+  width: 200px;
+}
+
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-item {
+  margin: 5px 0;
+}
+
+
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.gallery ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.thumbnail p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px;
+  background-color: #00000080;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.small {
+  font-size: 14px;
+  color: rgb(53, 51, 51);
+}
+.gallery h3{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+cite{
+  display: none;
+}
+.title, .small{
+  text-align: center;
+}
+.dark{
+  background-color: #2e2e2e;
+}
+
+.dark .label-input{
+  padding: 1em;
+}
+
+.dark a{
+  color: lightblue;
+}
+
+.form{
+  width: 100%;
+}
+
+.dark a:visited{
+  color: #e797e1;
+}
+
+.center{
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: underline;
+margin-bottom: .5em;
+}
+
+.cap{
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.intro {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.intro h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+.intro h3 {
+  text-align: center;
+}
+
+.submit {
+  text-align: center;
+  border: 1px solid #cbcbcb;
+  padding: .5em;
+  font-size: 12px;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+button{
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  justify-content: right;
+  transition-duration: 0.4s
+}
+button:hover{
+    background-color: #ccc;
+}
+.view-all{
+ text-align: center;
+}
+
+input[type=text], input[type=url]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ccc;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-image {
+  width: 20%;
+  height: 30%;
+  margin-right: 20px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-title {
+  margin: 0;
+  font-size: 28px;
+}
+
+.movie-genre {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.tags {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.movie-reviews {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.darken{
+  color: #535353;
+  text-transform: capitalize;
+}
